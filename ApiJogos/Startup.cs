@@ -42,7 +42,7 @@ namespace ApiJogos
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ExemploApiCatalogoJogos", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiJogos", Version = "v1" });
 
                 var basePath = AppDomain.CurrentDomain.BaseDirectory;
                 var fileName = typeof(Startup).GetTypeInfo().Assembly.GetName().Name + ".xml";
