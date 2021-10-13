@@ -1,0 +1,8 @@
+*.dll
+*.suo
+*.cache
+*.pdb
+*.csproj.user
+.vs/**
+/ApiJogos/bin/*
+/ApiJogos/obj/*
